@@ -14,8 +14,8 @@ data class MediaProcessResponse(
 
 @Serializable
 data class ContentsDetails(
-    val category: String,
-    val description: String
+    val category: String?,
+    val description: String?
 )
 
 @Serializable
